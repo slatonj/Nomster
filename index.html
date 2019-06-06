@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Splurty</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="6TiGAPWTgvlq67pQTQtFc5S41keyUKxX4Ev/cYr1y10Ou3cu3rEy0QI48ae28DHmaW5E36pyhNaRJ/ylYs53tw==" />
+    <link rel="stylesheet" media="all" href="/assets/footer.self-785c13472f178d002126953ccff939b0a0b393993d5f24de9d630a98e05b534a.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/master.self-89c76148a7d8f28b1edad83083b70c4268c5145e140ad6d2d7780fc0133792c4.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/quotes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/application.self-66bb6eed2c561f019796397c9b16dfcc46f8e89d68ba31b2461e709059ac6044.css?body=1" data-turbolinks-track="reload" />
+    <script src="/assets/rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/popper.self-70e1b2b78096eb80eb35ebac513e7a8007033ee3e881919cfdca4ece7779cffd.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/tether/tether.self-99c623f594382910cc70df82521ff60958063fe2e595de94ff39b7edc36e7d89.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/util.self-a0c927284f352a57b03b059912bd2ee2561c33c27b791d6ce085cf5adbe7dee5.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/alert.self-fb397b96e9b51d772e5707f5c473abacdbf29cb896f737798abc1a7d2f6b9c79.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/button.self-c54915a50f56c9007158615d9636e92fb05b2ebbdc900b33ed5a52701450baa0.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/carousel.self-23dfaa11deebafc49df9db6a6d16733e594196727a51f41a3180be50600a0dd5.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/collapse.self-e34ea6472a55ad646724bc41ea03ccb43aabe7605e899316ad458ad47c21bbea.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/dropdown.self-82dfb29c4b6d846eb68eba044853a2d1b98e1ad7fcf9b5b564ae71c3d1202d2d.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/modal.self-c426d324514358777867d27a25fad10b6fec353137b8da795a305b0988ce3e6f.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/tooltip.self-07c32e7ffc85c7766b3626f1ebb36fff50d7bbd0db98d67a01957fb594430c7d.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/popover.self-7230e09abae7f369855a6e32aa734934ee3d3d9907dd72548df3e6a1d0284248.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/scrollspy.self-4410bff703a3994390a1dc11352eb60888c3e78861349fa6fe2af2900d5894f0.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/tab.self-30df4a05f2141d8d2020aad12d26c9ca9dc83a650a32f9c5b132dbb522ae0f39.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap/toast.self-e52ce42f63aa24eedfe55eea46da14a788dbb456296c2ee801d77599ea0f1892.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="reload"></script>
+<script src="/assets/application.self-f74b421b6b3f8f87122d354a558aa64b553aee34b1bf06a7515456271b87a3c5.js?body=1" data-turbolinks-track="reload"></script>
+  </head>
+  <body>
+    <header class="row">
+      <div class="col-3">
+        <a class="logo" href="/">
+          <div class="circle">
+            <br />
+            You know
+            <br />
+            you need
+            <br />
+            to code
+          </div>
+</a>      </div>
+      <div class="col-sm-4 hidden-xs-down slogan">
+        Splurting out unsolicited advice about entrepreneurship since 2016
+      </div>
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+        <!-- Button trigger modal -->
+    <a data-toggle="modal" data-target="#myModal" href="#">Contribute</a>
+    &nbsp;&nbsp;
+    <a href="/about">About</a>
+      </div>
+    </header>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+
+          </div>
+          <form class="simple_form new_quote" id="new_quote" novalidate="novalidate" action="/quotes" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GwECFXh0pxmut9MvQxnAqwHxEL/HM8LcbyUqx0qXjf0oEpIx+JUtUIm2mXBMlKup97OVuQnP4ZHq1d23kpebHg==" />
+        <div class="modal-body">
+           <div class="form-group string required quote_saying"><label class="form-control-label string required" for="quote_saying">What is the saying you want to add? <abbr title="required">*</abbr></label><input class="form-control string required" placeholder="Fear is the disease. Hustle is the antidote." type="text" name="quote[saying]" id="quote_saying" /></div>
+           <br />
+          <div class="form-group string required quote_author"><label class="form-control-label string required" for="quote_author">Who is the author of the quote? <abbr title="required">*</abbr></label><input class="form-control string required" placeholder="Travis Kalanick" type="text" name="quote[author]" id="quote_author" /></div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <input type="submit" name="commit" value="Create" class="btn btn-danger" data-disable-with="Create" />
+        </div>
+</form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr />
+    <br class="clear" />
+
+    <div class="container">
+      <h2>
+  <span>SPLURTY / No. 3</span>
+  Here's the <u>best unsolicited startup advice</u> you can get!
+</h2>
+
+<br class= "clear" />
+
+<h1>“Be yourself; everyone else is already taken.”</h1>
+<h2 claas="float-right">- ― Oscar Wilde</h2>
+
+<br class= "clear" />
+
+<br />
+<br />
+<br />
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <a class="next-quote" href="/">This isn&#39;t enough, I need more</a>
+          </div>
+
+                
+
+          <div class="col-12 col-sm-6 footer-blurb">
+            Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">[Jeff slaton]</a><br />
+             Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
