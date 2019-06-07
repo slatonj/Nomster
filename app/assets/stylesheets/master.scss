@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap');
 
 
@@ -25,13 +26,13 @@ body {
 }
 
 .navbar {
-    background: image_url('dark-grey-terrazzo');
+    background: image_url('tex2res4');
     box-shadow: 10px 10px;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #b3e4be;
+  color: #5bd876;
   font-family: 'Kumar One Outline', cursive;
   font: size 26px;
-
+  
 }
