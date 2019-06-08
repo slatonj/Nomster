@@ -1,8 +1,8 @@
 Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'jeff-slaton-nomster.herokuapp.com'}
-end 
-  # Settings specified here will take precedence over those in config/application.rb.
 
+  # Settings specified here will take precedence over those in config/application.rb.
+end
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -93,4 +93,4 @@ end
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
+end 
