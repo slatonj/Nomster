@@ -26,8 +26,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'popper_js', '~> 1.12.9'
-gem "bootstrap", ">= 4.1.3"
+gem 'popper_js', '~> 1.14.3'
+gem "bootstrap", ">= 4.3.1"
 gem 'simple_form'
 gem 'jquery-rails'
 gem 'will_paginate-bootstrap'
