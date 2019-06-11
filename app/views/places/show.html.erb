@@ -6,38 +6,28 @@
 
  <% if @place.latitude.present? && @place.longitude.present? %>
 
+
+  
   <script>
       function initMap() {
         var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %>};
 
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: myLatLng
-        });
+         var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: myLatLng
+      });
 
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'Click to zoom'
-        });
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+      });
+    }
+  </script>
 
-        map.addListener('center_changed', function() {
-         
-          window.setTimeout(function() {
-            map.panTo(marker.getPosition());
-          }, 3000);
-        });
-
-        marker.addListener('click', function() {
-          map.setZoom(8);
-          map.setCenter(marker.getPosition());
-        });
-      }
-    </script>
-    
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO0709HnulFJwatTpblmlFFY-yttVDgHs&callback=initMap">
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO0709HnulFJwatTpblmlFFY-yttVDgHs&callback=initMap" >
     </script>
 
 
