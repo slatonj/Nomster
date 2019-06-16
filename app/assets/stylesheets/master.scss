@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background: image_url('intersection.png');
+    background: image_url('intersection');
     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
@@ -30,11 +30,11 @@ body {
     box-shadow: 10px 10px;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-dark .navbar-brand {
   color: #5bd876;
   font-family: 'Kumar One Outline', cursive;
   font: size 26px;
-  
+
 }
 
 .invalid-feedback {
