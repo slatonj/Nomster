@@ -39,7 +39,6 @@ gem "figaro"
 gem 'carrierwave', '~> 1.0'
 gem "fog-aws"
 
-gem "htmlbeautifier"
  
 # Use ActiveStorage variant
 gem 'mini_magick', '~> 4.8'
